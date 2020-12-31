@@ -1,0 +1,41 @@
+body {
+  background: #1da1f2;
+  /* background-color: rgb(21, 32, 43); */
+}
+.landing {
+  height: 100vh;
+  /* background: linear-gradient(to right, #4b95d1e1, #075eaf); */
+}
+.main-text {
+  /* color: #dadee0; */
+  color: #e1e6e9;
+  font-size: 45px;
+  line-height: 1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.sub-note {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #e1e6e9;
+  font-weight: 300;
+}
+.btn {
+  background-color: #26d1e0;
+  color: #e6ebee;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.sweet {
+  height: 100px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 800px) {
+  .cover {
+    display: flex;
+    flex-direction: column;
+  }
+}
