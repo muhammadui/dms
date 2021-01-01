@@ -1,5 +1,3 @@
-document.querySelector("form").addEventListener("submit", handleSubmit);
-
 const handleSubmit = (e) => {
   e.preventDefault();
   let myForm = document.getElementById("pizzaOrder");
@@ -11,14 +9,15 @@ const handleSubmit = (e) => {
   })
     .then(() => {
       Swal.fire({
-        icon: "error",
-        title: "Oops...",
-        text: "Something went wrong!",
-        footer: "<a href>Why do I have this issue?</a>",
+        icon: "success",
+        imageUrl: "https://assets4.lottiefiles.com/temp/lf20_taipbM.json",
+        title: "Sent",
+        text: "Your message is being sent successfully",
       });
 
+      console.log("Form successfully submitted");
       console.log("Form successfully submitted");
     })
     .catch((error) => alert(error));
 };
-const gameOver = () => {};
+document.querySelector("form").addEventListener("submit", handleSubmit);
