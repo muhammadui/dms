@@ -8,9 +8,10 @@ body {
   /* background: linear-gradient(to right, #4b95d1e1, #075eaf); */
 }
 .landing#blur.active {
+  height: 100vh;
   filter: blur(7px);
   pointer-events: none;
-  height: 100vh;
+  user-select: none;
 }
 .main-text {
   /* color: #dadee0; */
@@ -29,19 +30,19 @@ body {
 .btn {
   background-color: #26d1e0;
   color: #e6ebee;
-  width: 50%;
+  width: 75%;
   font-size: 20px;
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-.sweet {
-  height: 100px;
-  margin-top: 20px;
-}
-@media screen and (max-width: 800px) {
-  .cover {
-    display: flex;
-    flex-direction: column;
-  }
+.btn:hover {
+  background-color: #098894;
+  color: #e6ebee;
+  width: 75%;
+  font-size: 20px;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: 0.5s ease-in-out;
 }
