@@ -46,6 +46,30 @@ body {
   font-weight: 500;
   transition: 0.5s ease-in-out;
 }
+/* desktop media queries  */
+@media (min-width: 900px) {
+  .main-text {
+    margin-bottom: 10px;
+    color: #e1e6e9;
+    font-size: 60px;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .right {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+  .sub-note {
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    color: #e1e6e9;
+    font-weight: 300;
+  }
+}
+
+/* Andriod Media Queries  */
 @media (max-width: 500px) {
   .landing {
     flex-direction: column;
@@ -90,5 +114,11 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     transition: 0.5s ease-in-out;
+  }
+  .landing#blur.active {
+    height: 100vh;
+    filter: blur(7px);
+    pointer-events: none;
+    user-select: none;
   }
 }
