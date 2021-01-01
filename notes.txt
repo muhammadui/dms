@@ -1,1 +1,2 @@
-fix all src directory of the app and try committing it
+fix all src directory of the app and try committing it.
+don't forget to move the node modules directory.
