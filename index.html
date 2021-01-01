@@ -35,7 +35,7 @@
           Please don't hesitate to send us a message.
         </p>
         <button
-          class="btn hero-button member-btn"
+          class="btn hero-button member-btn mt-5"
           target="_blank"
           rel="noopener"
           data-toggle="modal"
@@ -72,7 +72,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form id="regForm">
+            <form name="contact" method="POST" data-netlify="true">
               <!-- <input type="hidden" name="_token" value="" /> -->
               <div class="form-group">
                 <label class="control-label">First Name</label>
@@ -134,7 +134,7 @@
 
               <div class="form-group">
                 <div>
-                  <input type="button" value="Send" class="btn btn-primary" />
+                  <input type="submit" value="Send" class="btn btn-primary" />
                 </div>
                 <!-- <div>
                   <button type="submit" class="btn btn-primary" onclick="sweetAlertNotiication()">Sign Up</button>
