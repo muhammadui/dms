@@ -46,3 +46,49 @@ body {
   font-weight: 500;
   transition: 0.5s ease-in-out;
 }
+@media (max-width: 500px) {
+  .landing {
+    flex-direction: column;
+  }
+  .right {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .left {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+  }
+  .main-text {
+    /* color: #dadee0; */
+    color: #e1e6e9;
+    font-size: 40px;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .btn {
+    background-color: #26d1e0;
+    color: #e6ebee;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .btn:hover {
+    background-color: #098894;
+    color: #e6ebee;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+  }
+}
