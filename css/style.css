@@ -4,7 +4,12 @@ body {
 }
 .landing {
   height: 100vh;
+
   /* background: linear-gradient(to right, #4b95d1e1, #075eaf); */
+}
+.landing#blur.active {
+  filter: blur(6px);
+  pointer-events: none;
 }
 .main-text {
   /* color: #dadee0; */
