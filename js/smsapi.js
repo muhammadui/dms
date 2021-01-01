@@ -10,7 +10,6 @@ const handleSubmit = (e) => {
     .then(() => {
       Swal.fire({
         icon: "success",
-        imageUrl: "https://assets4.lottiefiles.com/temp/lf20_taipbM.json",
         title: "Sent",
         text: "Your message is being sent successfully",
       });
