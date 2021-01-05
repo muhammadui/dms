@@ -7,12 +7,12 @@ body {
 
   /* background: linear-gradient(to right, #4b95d1e1, #075eaf); */
 }
-.landing#blur.active {
+/* .landing#blur.active {
   height: 100vh;
   filter: blur(7px);
   pointer-events: none;
   user-select: none;
-}
+} */
 .main-text {
   /* color: #dadee0; */
   color: #e1e6e9;
